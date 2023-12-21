@@ -19,3 +19,7 @@ make # Make sure you have wut and devkitPro installed
 ```
 
 Once you have obtained the file for your CFW, move it over to SD:/wiiu/apps/
+
+# Extra:
+Please report issues and ideas in the issues tab.
+This game is liscensed under the GNU General Public License 3.0

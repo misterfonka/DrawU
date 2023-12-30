@@ -167,6 +167,7 @@ int main(int argc, char** argv) {
         /* Print text */
         OSScreenPutFontEx(SCREEN_TV, 0, 0, "DrawU");
         OSScreenPutFontEx(SCREEN_TV, 0, 2, "Use the d-pad to draw pixels to the screen.");
+        /* "printf" doesn't print text to the screen so I have to do this :facepalm: */
         char displayText[128];
         snprintf(displayText, sizeof(displayText), "Press A to cycle through different colors. Current color: %s", colorNames[currentColorIndex]);
         OSScreenPutFontEx(SCREEN_TV, 0, 3, displayText);
